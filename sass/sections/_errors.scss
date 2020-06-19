@@ -1,0 +1,45 @@
+
+.text-danger {
+    background: #db4a4a; // red
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    padding: 3px 6px;
+  
+    ul {
+      list-style: none;
+      margin: 0;
+    }
+  
+    li:last-child { margin: 0 }
+}
+
+.error-overlay {    
+    position: relative;
+
+    &:before {
+        background: rgba(219, 74, 74, 0.8) url("../images/icons/icon-error.svg") center / 50px 50px no-repeat;
+        content: '';
+        display: inline-block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+.file-error {
+    border-color: #db4a4a;
+    color: #db4a4a;
+
+    .file-list-item__status {
+        color: #db4a4a;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+}
+
+
