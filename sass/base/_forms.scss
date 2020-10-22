@@ -123,11 +123,6 @@ input[type="submit"], input[type="button"] {
 }
 
 
-// validation messages
-.field-validation-valid, .validation-summary-valid { display: none!important; }
-.field-validation-error, .validation-summary-error { display: block!important; }
-
-
 ::-webkit-input-placeholder { color: #7c7b7b; }
 ::-moz-placeholder { color: #7c7b7b; }
 
